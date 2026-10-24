@@ -15,8 +15,7 @@ export function Footer() {
           <div>
             <Logo light />
             <p className="mt-4 max-w-sm text-sm leading-relaxed">
-              {site.tagline}. Equipping minds, funding futures, and strengthening faith — from secondary school
-              through university and beyond.
+              {site.tagline}. Equipping minds. Strengthening faith. Raising Christian techpreneurs.
             </p>
             <p className="mt-6 max-w-sm font-serif text-sm italic text-gold-light">
               “{verses.light.text}” <span className="not-italic text-white/60">— {verses.light.source}</span>

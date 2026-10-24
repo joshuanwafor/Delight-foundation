@@ -12,7 +12,7 @@ const journey = [
   {
     stage: "Secondary school",
     title: "Technology Skills Acquisition",
-    body: "A free, three-day intensive across five high-demand digital skills — with laptops provided and mentorship afterwards.",
+    body: "A planned three-day intensive across five high-demand digital skills, launching as funding and resources allow.",
     href: "/programs#skills",
   },
   {
@@ -153,9 +153,9 @@ export default function Home() {
             <div>
               <SectionHeading
                 light
-                eyebrow="Free skills training"
-                title="100 young techpreneurs by 2040"
-                intro="Nigeria’s classrooms teach theory. We put practical, income-earning skills in young hands — free of charge, sustained entirely by the generosity of our community."
+                eyebrow="Our mission"
+                title="100 young Christian techpreneurs by 2040"
+                intro="Young people deserve more than the knowledge required to pass examinations. Our planned skills program will put practical technology skills in young hands — as funding and resources allow."
               />
               <div className="mt-8">
                 <Button href="/programs" variant="outline-light">
@@ -171,9 +171,9 @@ export default function Home() {
                 </li>
               ))}
               <li className="rounded-xl bg-gold p-5 text-navy-deep">
-                <h3 className="font-semibold">More than a seminar</h3>
+                <h3 className="font-semibold">Beyond the training</h3>
                 <p className="mt-1.5 text-sm leading-relaxed">
-                  Core i5 laptops provided, and every successful trainee enrolled in structured mentorship.
+                  As resources permit: access to learning equipment and structured mentorship.
                 </p>
               </li>
             </ul>

@@ -57,30 +57,41 @@ export const verses = {
 export const skills = [
   {
     title: "AI Tools & Applications",
-    body: "Practical training on using artificial intelligence to think, work, and create faster.",
+    body: "Introducing young people to practical applications of artificial intelligence that can support learning, creativity, and productivity.",
   },
   {
     title: "Video Creation & Editing",
-    body: "Shooting, cutting and telling stories with video for a content-driven world.",
+    body: "Developing the skills to create, edit, and communicate ideas through video.",
   },
   {
     title: "Creative Thinking & Content Writing",
-    body: "Clear thinking and persuasive writing that open doors online and offline.",
+    body: "Encouraging clear thinking, effective communication, and purposeful writing for digital and everyday contexts.",
   },
   {
     title: "Data Analysis",
-    body: "Turning numbers into decisions with tools employers actually use.",
+    body: "Introducing practical approaches to understanding data and using it to inform decisions.",
   },
   {
     title: "Graphics Design",
-    body: "Visual design fundamentals and the software to bring ideas to life.",
+    body: "Building foundational visual design skills and exploring tools for bringing creative ideas to life.",
   },
 ];
 
+export const mission = "Raising and establishing 100 young Christian techpreneurs in Nigeria by 2040.";
+
 export const objectives = [
-  "Restoring the dying hopes of the younger generation through technology.",
-  "Raising techpreneurs who will pass on tech knowledge to the younger generation.",
-  "Raising future millionaires through technology.",
+  {
+    title: "Pointing the younger generation to Christ",
+    body: "To restore hope in the younger generation by pointing them to Jesus Christ, the Light of the world, and grounding them in the truth of His Word.",
+  },
+  {
+    title: "Raising Christian techpreneurs who empower others",
+    body: "To equip young Christians with practical technology skills and entrepreneurial knowledge, inspiring them to pass on what they learn and create opportunities for others.",
+  },
+  {
+    title: "Building a society shaped by Christlike character",
+    body: "To contribute to a better society by raising whole believers whose faith is reflected in their character, service, leadership, and impact on the world around them.",
+  },
 ];
 
 export const pillars = [
@@ -90,7 +101,7 @@ export const pillars = [
   },
   {
     title: "Faith on campus",
-    body: "Mentor and strengthen students' on-campus Christian faith, and encourage them to share it with others.",
+    body: "Mentor and strengthen students' on-campus Christian faith, and encourage them to share that faith with others.",
   },
   {
     title: "Ready for what's next",
@@ -101,27 +112,35 @@ export const pillars = [
 export const scholarshipProvides = [
   {
     title: "School fee sponsorship",
-    body: "Full session fees paid for at least 10 undergraduate students every academic year.",
+    body: "We seek to ease the financial burden of higher education by providing school fee assistance to eligible undergraduate students, subject to available funding.",
   },
   {
     title: "Quarterly mentorship",
-    body: "An online mentorship session four times a year for every active cohort, until graduation.",
+    body: "We aim to provide regular online mentorship sessions for each active cohort, creating opportunities for guidance, encouragement, and meaningful conversations throughout students' academic journeys.",
   },
   {
     title: "Post-Graduate Life seminar",
-    body: "An annual seminar at the end of every year to prepare graduating students for life after school.",
+    body: "We envision an annual seminar to help graduating students think through the transition from university into employment, entrepreneurship, and other responsibilities of adult life.",
   },
   {
-    title: "Ongoing fellowship",
-    body: "A discussion platform between the four main events, with extra programs recommended by Christian leaders and mentors.",
+    title: "Ongoing fellowship and support",
+    body: "Beyond formal meetings, we hope to maintain a platform where students can continue learning, sharing experiences, and receiving guidance, with opportunities for additional activities recommended by Christian leaders and mentors.",
   },
 ];
 
+/** The About page's shorter version of what the scholarship provides. */
+export const scholarshipProvidesSummary = [
+  "School fee sponsorship for at least 10 undergraduate students every academic year.",
+  "A quarterly online mentorship session, held four times a year, for every active cohort.",
+  "An annual Post-Graduate Life seminar, held at the end of every year, to prepare graduating students for life after school.",
+  "An intermittent discussion platform between the four main events, with room for additional programs as recommended by Christian leaders and mentors.",
+];
+
 export const requirements = [
-  "Be a Nigerian undergraduate student.",
-  "Submit a letter of motivation stating why you should receive the scholarship.",
-  "Upload an academic transcript (required for students in 200 level and above).",
-  "Provide two letters of recommendation — one academic, and one from a religious leader.",
+  "Be an undergraduate student in a Nigerian tertiary institution.",
+  "Submit a motivation letter explaining why you should receive the scholarship.",
+  "Provide an academic transcript, where applicable.",
+  "Provide two letters of recommendation — one academic and one from a religious leader.",
 ];
 
 export const giftUnlocks = [
